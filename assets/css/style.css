@@ -1,0 +1,106 @@
+.Card-text {
+    font-family: 'PP Telegraf', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33.6px;
+    text-align: center;
+    color: white;
+}
+
+.Card-post {
+    font-family: 'PP Telegraf', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    color: white;
+}
+
+.Card-pera {
+    font-family: 'PP Telegraf', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    color: white;
+    max-width: 303.6px;
+}
+
+/*--------------- */
+.mw-1160 {
+    max-width: 1160px;
+}
+
+.left-top-image {
+    position: absolute;
+    top: -3%;
+    left: 0;
+}
+
+.right-bottom-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.ready-heading {
+    font-family: 'PP Telegraf', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 58.8px;
+    text-align: center;
+    color: white;
+}
+
+.ready-pera {
+    font-family: 'PP Telegraf', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: center;
+    color: white;
+}
+
+.animation-boll-2 {
+    position: absolute;
+    left: 12%;
+    top: 60%;
+}
+.animation-boll-1 {
+    position: absolute;
+    left: 12%;
+    top: 30%;
+}
+.animation-boll-3 {
+    position: absolute;
+    top: 10%;
+    right: 6%;
+}
+
+.animation-boll-4 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+.circle {
+    background-position: top left;
+    animation: moveAndRotate 2s linear infinite;
+}
+
+.ball {
+   
+    
+    position: absolute;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
